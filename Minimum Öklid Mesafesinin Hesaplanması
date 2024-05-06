@@ -1,0 +1,11 @@
+def euclideanDistance(point1,point2):
+    x1 , y1 = point1
+    x2 , y2 = point2
+    distance = ((x1 - x2)**2 + (y1 - y2)**2)**0.5
+    return distance
+min_distance = []
+a = (1,1)
+b = (4,5)
+a_b = euclideanDistance(a,b)
+min_distance.append(a_b)
+print(min_distance)
